@@ -4,6 +4,7 @@ import React from 'react'
 import '../globals.css'
 import FormRow from '@/components/FormRow';
 import Link from 'next/link';
+import Logo from '@/components/Logo';
 
 const Login = () => {
     const handleChange = () => {
@@ -13,9 +14,7 @@ const Login = () => {
         <>
             <div className="h-[100vh]  bg-slate-200 flex justify-center items-center ">
                 <div className="h-auto w-[80%] bg-white rounded-md  md:w-[55%] lg:w-[30%] py-4 px-6 shadow-lg">
-                    <div className="w-[100%] ">
-                        BlogSpot
-                    </div>
+                    <Logo wrapperClass='flex items-start ' classNames='w-fit h-7 shadow-lg rounded object-contain' />
                     <h1 className="text-2xl font-semibold text-center tracking-wider mt-4 md:text-3xl text-[--primary-black]">
                         Login
                     </h1>

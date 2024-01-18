@@ -1,13 +1,12 @@
 import Link from "next/link";
 import landing from '../assets/images/landing.svg'
 import Image from "next/image";
+import Logo from "@/components/Logo";
 const Landing = () => {
   return (
     <>
       <main className=" h-[100vh]  p-6 flex flex-col md:ml-10 ">
-        <div className=" my-4 ">
-          LOGO
-        </div>
+        <Logo wrapperClass='flex items-start ' classNames='w-fit h-10 rounded object-contain' />
         <div className=" mt-44  md:mt-24 flex flex-col items-center md:flex-row md:justify-evenly md:items-start ">
           <div className=" md:w-2/6 md:mt-20">
             <p className=" text-lg">
